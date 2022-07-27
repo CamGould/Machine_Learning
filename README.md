@@ -50,15 +50,20 @@ For each of the last three points I will:
 3. Display the *confusion matrix* from *sklearn.metrics*.
 4. Print the *imbalanced classification report* from *imblearn.metrics*.
 
-#### Linear Regression Forecasting
+#### Credit Risk Ensemble
 
-In [this notebook](https://github.com/CamGould/Time_Series_Analysis/blob/main/Coding%20Notebooks/%5B2%5DLinear_Regression_Forecasting.ipynb), I will build a Scikit-Learn linear regression model to predict CAD/JPY returns with lagged CAD/JPY futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
+In [this notebook](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B2%5DCredit_Risk_Ensemble.ipynb), I will will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. I will use the [Balanced Random Forest Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html) and the [Easy Ensemble Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html). Feel free to refer to the documentation for each of these to read about the models and see examples of the code
 <br>
 <br>
 The outline of this notebook will be as follows:
 <br>
-1. **Data preparation** (creating returns and lagged returns, and splitting the data into training and testing data)
-2. *Fitting* a **linear regression model**.
-3. Making *predictions* using the **testing data**.
-4. **Out-of-sample** performance.
-5. **In-sample** performance.
+1. Read the data into a DataFrame using the provided starter code.
+2. Split the data into training and testing sets.
+3. Scale the training and testing data using the *StandardScaler* from *sklearn.preprocessing*.
+
+Then for each model I will complete these steps:
+1. Train the model using the quarterly data from LendingClub provided in the Resource folder.
+2. Calculate the balanced accuracy score from sklearn.metrics.
+3. Display the confusion matrix from sklearn.metrics.
+4. Generate a classification report using the imbalanced_classification_report from imbalanced learn.
+5. For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
