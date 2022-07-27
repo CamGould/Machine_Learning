@@ -4,7 +4,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/CamGould/Time_Series_Analysis/blob/main/Supplemental/unit-10-readme-photo.png.jpeg?raw=true"
+    src="https://github.com/CamGould/Machine_Learning/blob/main/Supplemental/credit-risk.jpg?raw=true"
   >
 </p>
 
