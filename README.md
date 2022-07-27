@@ -18,7 +18,7 @@ In this assignment, I will build and evaluate several machine learning models to
 Use the following links to jump right into the anaylsis notebooks:
 <br>
 <br>
-This notebook contains [Times Series Forecasting](https://github.com/CamGould/Time_Series_Analysis/blob/main/Coding%20Notebooks/%5B1%5DTime_Series_Forecasting.ipynb)
+This notebook contains [Credit Risk Resampling](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B1%5DCredit_Risk_Resampling.ipynb)
 <br>
 This notebook contains [Linear Regression Forecasting](https://github.com/CamGould/Time_Series_Analysis/blob/main/Coding%20Notebooks/%5B2%5DLinear_Regression_Forecasting.ipynb)
 <br>
