@@ -22,25 +22,33 @@ This notebook contains [Credit Risk Resampling](https://github.com/CamGould/Mach
 <br>
 This notebook contains [Credit Risk Ensemble](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B2%5DCredit_Risk_Ensemble.ipynb)
 <br>
-This file conatins the [Raw CSV Data](https://github.com/CamGould/Time_Series_Analysis/blob/main/Raw%20Data/cad_jpy.csv) provided by *University of Toronto*
+This file conatins the [Raw CSV Data](https://github.com/CamGould/Machine_Learning/tree/main/Supplemental) provided by *University of Toronto*
 <br>
 ### Project Outline and Instructions
-#### Time-Series Forecasting
-In [this notebook](https://github.com/CamGould/Time_Series_Analysis/blob/main/Coding%20Notebooks/%5B1%5DTime_Series_Forecasting.ipynb), I will load historical CAD-JPY exchange rate data and apply time series analysis and modelling to determine if there is any predictable behaviour between the currencies.
+#### Credit Risk Resampling
+In [this notebook](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B1%5DCredit_Risk_Resampling.ipynb), I will use the imbalanced learn library to resample the *Lending Club* data and build and evaluate logistic regression classifiers using the resampled data.
 <br>
 <br>
 The outline of this notebook will be as follows:
 <br>
-1. Plotting the **"Settle" price** to check for *long or short-term* patterns.
-    1. Are there any patterns, long-term and/or short?
-2. Decomposition using a **Hodrick-Prescott Filter** (decompose the settle price into *trend and noise*)
-    1. Are there any patterns - long or short term?
-3. Forecasting returns using an **ARMA model**. 
-    1. Based on the p-value, is the model a good fit?
-4. Forecasting the *exchange rate price* using an **ARIMA Model**.
-    1. What does the model forecast will happen to the Japanese Yen in the near term?
-5. Forecasting *volatility* with **GARCH**.
-    1. What does the model forecast will happen to volatility in the near term?
+1. Read the CSV into a DataFrame.
+2. Split the data into Training and Testing sets.
+3. Scale the training and testing data using the StandardScaler from sklearn.preprocessing.
+4. Use the provided code to run a Simple Logistic Regression:
+    1. Fit the *logistic regression classifier*.
+    2. Calculate the *balanced accuracy score*.
+    3. Display the *confusion matrix*.
+    4. Print the *imbalanced classification report*.
+5. Oversample the data using the *Naive Random Oversampler* and *SMOTE algorithms*.
+6. Undersample the data using the *Cluster Centroids algorithm*.
+7. Over and under sample using a *combination SMOTEENN algorithm*.
+
+For each of the last three points I will:
+<br>
+1. Train a *logistic regression classifier* from *sklearn.linear_model* using the resampled data.
+2. Calculate the *balanced accuracy score* from *sklearn.metrics*.
+3. Display the *confusion matrix* from *sklearn.metrics*.
+4. Print the *imbalanced classification report* from *imblearn.metrics*.
 
 #### Linear Regression Forecasting
 
