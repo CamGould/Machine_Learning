@@ -1,5 +1,5 @@
-<h1 align="center">A Time-Series Analysis Project using Time-Series Models</h1>
-<h2 align="center"> A Yen for the Future </h2>
+<h1 align="center">A Machine Learning Project Using Imbalenced Classes</h1>
+<h2 align="center"> Risky Business </h2>
 <h4 align="center"> Created by <em>Cam Gould</em> for the <em>University of Toronto Fintech BootCamp</em> </h4>
 
 <p align="center">
@@ -9,10 +9,10 @@
 </p>
 
 ### Background Information
-The financial departments of large companies often have to make foreign currency transactions when doing international business, while hedge funds are also interested in anything that will provide an edge in predicting currency movements. Hence, both are always eager to gain a better understanding of the future direction and risk of various currencies.
+Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 <br>
 <br>
-In this assignment, I will test multiple time series tools that you have been learned in order to predict future movements in the value of the Canadian dollar versus the Japanese yen.
+In this assignment, I will build and evaluate several machine learning models to predict *credit risk* using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so I will need to employ different techniques for training and evaluating models with *imbalanced classes*. I will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using ***Resampling*** & ***Ensemble Learning***.
 <br>
 ### Project Files
 Use the following links to jump right into the anaylsis notebooks:
