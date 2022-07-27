@@ -20,7 +20,7 @@ Use the following links to jump right into the anaylsis notebooks:
 <br>
 This notebook contains [Credit Risk Resampling](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B1%5DCredit_Risk_Resampling.ipynb)
 <br>
-This notebook contains [Linear Regression Forecasting](https://github.com/CamGould/Time_Series_Analysis/blob/main/Coding%20Notebooks/%5B2%5DLinear_Regression_Forecasting.ipynb)
+This notebook contains [Credit Risk Ensemble](https://github.com/CamGould/Machine_Learning/blob/main/Coding%20Notebooks/%5B2%5DCredit_Risk_Ensemble.ipynb)
 <br>
 This file conatins the [Raw CSV Data](https://github.com/CamGould/Time_Series_Analysis/blob/main/Raw%20Data/cad_jpy.csv) provided by *University of Toronto*
 <br>
